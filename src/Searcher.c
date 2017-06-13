@@ -6,7 +6,14 @@ double mean(double a, double b) {
 }
 
 int stringsize(char *sub){
-	int size;
-	size = strlen(sub);
+	size_t size = strlen(sub);
 	return size;
+}
+
+int scoreString(char *subString, char *mainString){
+	int subSize = strlen(subString);
+	int mainSize = strlen(mainString);
+	char *dummyS[subSize + 1];
+	memcpy(dummyS, &main[0], 4 );
+	return &dummyS;
 }
