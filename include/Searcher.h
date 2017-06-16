@@ -1,3 +1,3 @@
 double mean(double, double);
 int stringsize(char *sub);
-int scoreString(char *subString, char *mainString);
+// int scoreString(char *subString, char *mainString);

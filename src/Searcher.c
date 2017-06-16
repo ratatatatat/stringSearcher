@@ -10,10 +10,12 @@ int stringsize(char *sub){
 	return size;
 }
 
-int scoreString(char *subString, char *mainString){
-	int subSize = strlen(subString);
-	int mainSize = strlen(mainString);
-	char *dummyS[subSize + 1];
-	memcpy(dummyS, &main[0], 4 );
-	return &dummyS;
-}
+
+
+// int scoreString(char *subString, char *mainString){
+// 	int subSize = strlen(subString);
+// 	int mainSize = strlen(mainString);
+// 	char *dummyS[subSize + 1];
+// 	memcpy(dummyS, &main[0], 4 );
+// 	return &dummyS;
+// }
